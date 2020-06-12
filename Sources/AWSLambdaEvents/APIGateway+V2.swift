@@ -55,7 +55,7 @@ extension APIGateway.V2 {
             public let timeEpoch: UInt64
         }
 
-        public let version: String
+        public let version: String?
         public let routeKey: String
         public let rawPath: String
         public let rawQueryString: String
