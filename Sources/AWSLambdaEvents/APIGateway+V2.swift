@@ -55,10 +55,10 @@ extension APIGateway.V2 {
             public let timeEpoch: UInt64
         }
 
-        public let version: String
-        public let routeKey: String
-        public let rawPath: String
-        public let rawQueryString: String
+//        public let version: String?
+//        public let routeKey: String?
+//        public let rawPath: String?
+//        public let rawQueryString: String?
 
         public let cookies: [String]?
         public let headers: HTTPHeaders
@@ -72,10 +72,10 @@ extension APIGateway.V2 {
         public let isBase64Encoded: Bool
 
         enum CodingKeys: String, CodingKey {
-            case version
-            case routeKey
-            case rawPath
-            case rawQueryString
+//            case version
+//            case routeKey
+//            case rawPath
+//            case rawQueryString
 
             case cookies
             case headers
